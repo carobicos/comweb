@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous/" />
+    <link href="css/tarea2.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <link rel="icon" href="favicon.png" />
+    <title>[tarea 2] EDUVA</title>
+</head>
+<body>    
+    <ul id="main_menu">  
+        <li><a href="#home" class="menu_link"><img src="favicon.png" style="max-height: 15px; width: auto; alt: 'Educación Virtual Actualizada';" >&nbsp;&nbsp;Inicio</a></li>
+        <li><a href="#cursos" class="menu_link">Cursos</a></li>
+        <li><a href="#matric" class="menu_link">Matrícula</a></li>
+        <li><a href="#contacto" class="menu_link">Contacto</a></li>
+      </ul>
+      <div class="rowTop">
+        <br><br><br><img src="https://www.eduva.co.cr/wp-content/uploads/2021/04/logo.jpg" style="max-height: 150px; width: auto; alt: 'Educación Virtual Actualizada';" ><br>Capacitación Profesional  &nbsp; 
+      </div>
+      <header id="home">
+      <!-- 5. rostro humano -->
+        <div class="header_text">
+          <h1>Educación Virtual para Docentes </h1>
+          <p>Capacitación para profesionales de la educación en Costa Rica, 100% virtuales y autogestionables</p>      
+              <a id="header_button" href="#cursos">Ver Cursos</a>
+      <!-- 8. call to action -->
+        </div>      
+      </header>
+      
+      <section id="cursos">
+        <h2>Oferta Académica</h2>
+        <p>Cursos certificados por la Direccion General de Servicio Civil (DGSC).</p>
+        <!-- 9. Utilizar cards informativas -->
+        <!-- TAB HEADERS -->
+        <div class="tab">
+        <button class="tablinks" onclick="clickHandle(event, 'tab1')"><strong>Apoyo <br>Educativo</strong></button>
+        <button class="tablinks" onclick="clickHandle(event, 'tab2')"><strong>Capacitación<br>Profesional</strong></button>
+        <button  class="tablinks" onclick="clickHandle(event, 'tab3')"><strong>Evaluación<br>del Aprendizaje</strong></button>
+        <button class="tablinks" onclick="clickHandle(event, 'tab4')"><strong>Legislación<br>Educativa</strong></button>
+        <button class="tablinks" onclick="clickHandle(event, 'tab5')"><strong>Tecnologías<br>de Información</strong></button>
+        <button class="tablinks" onclick="clickHandle(event, 'tab6')"><strong>Educación<br>de Adultos</strong></button>
+        <button class="tablinks" onclick="clickHandle(event, 'tab7')"><strong>Huertas y <br>Sostenibilidad</strong></button>
+        </div>
+        <!-- TAB CONTENTS -->
+        <div id="tab1" class="tabcontent">
+          <p><br>A continuación, la oferta de cursos de apoyo educativo disponibles:</p>
+        
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Introducción de apoyos educativos</h4>
+                  <p class="card-text">  <span style="font-weight: 500;">Duración:</span> 80 horas <br><span style="font-weight: 500;">Inicio de lecciones: </span> 3 de  noviembre<br><span style="font-weight: 500;">Costo: </span> c80.000</p>
+                  <div style="background-color:  rgb(28,67,136); text-align: center; color: #fff;  padding-top: 5px; padding-bottom: 5px" type="button"> <a href="#matric">Matricular </a></div>
+                </div>
+              </div>
+            </div>
+          
+            <div class="col-sm-4">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Lenguaje inclusivo</h4>
+                  <p class="card-text">  <span style="font-weight: 500;">Duración:</span> 80 horas <br><span style="font-weight: 500;">Inicio de lecciones: </span> 3 de noviembre<br><span style="font-weight: 500;">Costo: </span> c80.000</p>
+                  <div style="background-color:  rgb(28,67,136); text-align: center; color: #fff;  padding-top: 5px; padding-bottom: 5px" type="button"> <a href="#matric">Matricular </a></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-4">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Comunicación alternativa</h4>
+                  <p class="card-text">  <span style="font-weight: 500;">Duración:</span> 80 horas <br><span style="font-weight: 500;">Inicio de lecciones: </span> 3 de noviembre<br><span style="font-weight: 500;">Costo: </span> c80.000</p>
+                  <div style="background-color:  rgb(28,67,136); text-align: center; color: #fff;  padding-top: 5px; padding-bottom: 5px" type="button"> <a href="#matric">Matricular </a></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="row pt-3"></div>
+
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Manejo de conducta</h4>
+                  <p class="card-text">  <span style="font-weight: 500;">Duración:</span> 80 horas <br><span style="font-weight: 500;">Inicio de lecciones: </span> 3 de noviembre<br><span style="font-weight: 500;">Costo: </span> c80.000</p>
+                  <div style="background-color:  rgb(28,67,136); text-align: center; color: #fff;  padding-top: 5px; padding-bottom: 5px" type="button"> <a href="#matric">Matricular </a></div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-sm-4">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Redacción y Ortografía</h4>
+                  <p class="card-text">  <span style="font-weight: 500;">Duración:</span> 80 horas <br><span style="font-weight: 500;">Inicio de lecciones: </span> 3 de marzo<br><span style="font-weight: 500;">Costo: </span> c80.000</p>
+                  <div style="background-color: #84c3ff; text-align: center; color: #fff;  padding-top: 5px; padding-bottom: 5px"> Matrícula disponible a partir de enero </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-4">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Trastornos  conductuales</h4>
+                  <p class="card-text">  <span style="font-weight: 500;">Duración:</span> 80 horas <br><span style="font-weight: 500;">Inicio de lecciones: </span> 13 de febrero<br><span style="font-weight: 500;">Costo: </span> c80.000</p>
+                  <div style="background-color: #84c3ff; text-align: center; color: #fff;  padding-top: 5px; padding-bottom: 5px"> Matrícula disponible a partir de enero </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="row pt-3"></div>
+
+        </div>
+    
+        <div id="tab2" class="tabcontent">
+          <p><br>A continuación, la oferta de cursos de capacitación profesional disponibles:</p>
+        
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Guía del acoso laboral para funcionarios del MEP</h4>
+                  <p class="card-text">  <span style="font-weight: 500;">Duración:</span> 160 horas <br><span style="font-weight: 500;">Inicio de lecciones: </span> 3 de  noviembre<br><span style="font-weight: 500;">Costo: </span> c160.000</p>
+                  <div style="background-color:  rgb(28,67,136); text-align: center; color: #fff;  padding-top: 5px; padding-bottom: 5px" type="button"> <a href="#matric">Matricular </a></div>
+                </div>
+              </div>
+            </div>
+          
+            <div class="col-sm-4">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Entes auxiliares a la administración del MEP</h4>
+                  <p class="card-text">  <span style="font-weight: 500;">Duración:</span> 160 horas <br><span style="font-weight: 500;">Inicio de lecciones: </span> 3 de noviembre<br><span style="font-weight: 500;">Costo: </span> c160.000</p>
+                  <div style="background-color:  rgb(28,67,136); text-align: center; color: #fff;  padding-top: 5px; padding-bottom: 5px" type="button"> <a href="#matric">Matricular </a></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-4">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Contratación administrativa dentro del MEP</h4>
+                  <p class="card-text">  <span style="font-weight: 500;">Duración:</span> 160 horas <br><span style="font-weight: 500;">Inicio de lecciones: </span> 3 de noviembre<br><span style="font-weight: 500;">Costo: </span> c160.000</p>
+                  <div style="background-color:  rgb(28,67,136); text-align: center; color: #fff;  padding-top: 5px; padding-bottom: 5px" type="button"> <a href="#matric">Matricular </a></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="row pt-3"></div>
+
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Ética en los funcionarios del MEP</h4>
+                  <p class="card-text">  <span style="font-weight: 500;">Duración:</span> 80 horas <br><span style="font-weight: 500;">Inicio de lecciones: </span> 3 de noviembre<br><span style="font-weight: 500;">Costo: </span> c80.000</p>
+                  <div style="background-color:  rgb(28,67,136); text-align: center; color: #fff;  padding-top: 5px; padding-bottom: 5px" type="button"> <a href="#matric">Matricular </a></div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-sm-4">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Protocolos del MEP</h4>
+                  <p class="card-text">  <span style="font-weight: 500;">Duración:</span> 80 horas <br><span style="font-weight: 500;">Inicio de lecciones: </span> 3 de marzo<br><span style="font-weight: 500;">Costo: </span> c80.000</p>
+                  <div style="background-color: #84c3ff; text-align: center; color: #fff;  padding-top: 5px; padding-bottom: 5px"> Matrícula disponible a partir de enero </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="row pt-3"></div>
+
+        </div>
+    
+    
+        <div id="tab3" class="tabcontent">
+          <p><br>A continuación, la oferta de cursos disponibles sobre evaluación del aprendizaje:</p>
+        
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Funciones de la evaluación</h4>
+                  <p class="card-text">  <span style="font-weight: 500;">Duración:</span> 120 horas <br><span style="font-weight: 500;">Inicio de lecciones: </span> 3 de  noviembre<br><span style="font-weight: 500;">Costo: </span> c120.000</p>
+                  <div style="background-color:  rgb(28,67,136); text-align: center; color: #fff;  padding-top: 5px; padding-bottom: 5px" type="button"> <a href="#matric">Matricular </a></div>
+                </div>
+              </div>
+            </div>
+          
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Función sumativa en la Evaluación</h4>
+                  <p class="card-text">  <span style="font-weight: 500;">Duración:</span> 120 horas <br><span style="font-weight: 500;">Inicio de lecciones: </span> 3 de noviembre<br><span style="font-weight: 500;">Costo: </span> c120.000</p>
+                  <div style="background-color:  rgb(28,67,136); text-align: center; color: #fff;  padding-top: 5px; padding-bottom: 5px" type="button"> <a href="#matric">Matricular </a></div>
+                </div>
+              </div>
+            </div>           
+
+          </div>
+
+          <div class="row pt-3"></div>
+
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Instrumentos de evaluación</h4>
+                  <p class="card-text">  <span style="font-weight: 500;">Duración:</span> 80 horas <br><span style="font-weight: 500;">Inicio de lecciones: </span> 3 de  noviembre<br><span style="font-weight: 500;">Costo: </span> c80.000</p>
+                  <div style="background-color:  rgb(28,67,136); text-align: center; color: #fff;  padding-top: 5px; padding-bottom: 5px" type="button"> <a href="#matric">Matricular </a></div>
+                </div>
+              </div>
+            </div>
+          
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Detección de problemas de aprendizaje</h4>
+                  <p class="card-text">  <span style="font-weight: 500;">Duración:</span> 80 horas <br><span style="font-weight: 500;">Inicio de lecciones: </span> 3 de noviembre<br><span style="font-weight: 500;">Costo: </span> c80.000</p>
+                  <div style="background-color:  rgb(28,67,136); text-align: center; color: #fff;  padding-top: 5px; padding-bottom: 5px" type="button"> <a href="#matric">Matricular </a></div>
+                </div>
+              </div>
+            </div>           
+
+          </div>
+     
+          <div class="row pt-3"></div>
+
+        </div>
+    
+    
+        <div id="tab4" class="tabcontent" >
+          <p><br>A continuación, la oferta de cursos disponibles sobre legislación educativa:</p>
+        
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Derecho administrativo en el ámbito educativo</h4>
+                  <p class="card-text">  <span style="font-weight: 500;">Duración:</span> 160 horas <br><span style="font-weight: 500;">Inicio de lecciones: </span> 3 de  noviembre<br><span style="font-weight: 500;">Costo: </span> c160.000</p>
+                  <div style="background-color:  rgb(28,67,136); text-align: center; color: #fff;  padding-top: 5px; padding-bottom: 5px" type="button"> <a href="#matric">Matricular </a></div>
+                </div>
+              </div>
+            </div>
+          
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Introducción al derecho en el ámbito educativo</h4>
+                  <p class="card-text">  <span style="font-weight: 500;">Duración:</span> 80 horas <br><span style="font-weight: 500;">Inicio de lecciones: </span> 3 de noviembre<br><span style="font-weight: 500;">Costo: </span> c80.000</p>
+                  <div style="background-color:  rgb(28,67,136); text-align: center; color: #fff;  padding-top: 5px; padding-bottom: 5px" type="button"> <a href="#matric">Matricular </a></div>
+                </div>
+              </div>
+            </div>           
+
+          </div>
+
+          <div class="row pt-3"></div>
+
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Debido proceso disciplinario</h4>
+                  <p class="card-text">  <span style="font-weight: 500;">Duración:</span> 160 horas <br><span style="font-weight: 500;">Inicio de lecciones: </span> 3 de  noviembre<br><span style="font-weight: 500;">Costo: </span> c160.000</p>
+                  <div style="background-color:  rgb(28,67,136); text-align: center; color: #fff;  padding-top: 5px; padding-bottom: 5px" type="button"> <a href="#matric">Matricular </a></div>
+                </div>
+              </div>
+            </div>
+          
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Normas vigentes aplicables</h4>
+                  <p class="card-text">  <span style="font-weight: 500;">Duración:</span> 160 horas <br><span style="font-weight: 500;">Inicio de lecciones: </span> 3 de noviembre<br><span style="font-weight: 500;">Costo: </span> c160.000</p>
+                  <div style="background-color: #84c3ff; text-align: center; color: #fff;  padding-top: 5px; padding-bottom: 5px"> Matrícula disponible a partir de enero </div>
+                </div>
+              </div>
+            </div>           
+
+          </div>
+     
+          <div class="row pt-3"></div>
+
+        </div>
+    
+        <div id="tab5" class="tabcontent">     
+          <p><br>A continuación, la oferta de cursos disponibles de tecnología:</p>
+        
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Introducción de Windows</h4>
+                  <p class="card-text">  <span style="font-weight: 500;">Duración:</span> 80 horas <br><span style="font-weight: 500;">Inicio de lecciones: </span> 3 de  noviembre<br><span style="font-weight: 500;">Costo: </span> c80.000</p>
+                  <div style="background-color:  rgb(28,67,136); text-align: center; color: #fff;  padding-top: 5px; padding-bottom: 5px" type="button"> <a href="#matric">Matricular </a></div>
+                </div>
+              </div>
+            </div>
+          
+            <div class="col-sm-4">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Microsoft Excel Básico</h4>
+                  <p class="card-text">  <span style="font-weight: 500;">Duración:</span> 120 horas <br><span style="font-weight: 500;">Inicio de lecciones: </span> 3 de noviembre<br><span style="font-weight: 500;">Costo: </span> c120.000</p>
+                  <div style="background-color:  rgb(28,67,136); text-align: center; color: #fff;  padding-top: 5px; padding-bottom: 5px" type="button"> <a href="#matric">Matricular </a></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-4">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Microsoft Teams</h4>
+                  <p class="card-text">  <span style="font-weight: 500;">Duración:</span> 120 horas <br><span style="font-weight: 500;">Inicio de lecciones: </span> 3 de noviembre<br><span style="font-weight: 500;">Costo: </span> c120.000</p>
+                  <div style="background-color:  rgb(28,67,136); text-align: center; color: #fff;  padding-top: 5px; padding-bottom: 5px" type="button"> <a href="#matric">Matricular </a></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="row pt-3"></div>
+
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Microsoft Word</h4>
+                  <p class="card-text">  <span style="font-weight: 500;">Duración:</span> 120 horas <br><span style="font-weight: 500;">Inicio de lecciones: </span> 3 de noviembre<br><span style="font-weight: 500;">Costo: </span> c120.000</p>
+                  <div style="background-color:  rgb(28,67,136); text-align: center; color: #fff;  padding-top: 5px; padding-bottom: 5px" type="button"> <a href="#matric">Matricular </a></div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-sm-4">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Microsoft PowerPoint</h4>
+                  <p class="card-text">  <span style="font-weight: 500;">Duración:</span> 120 horas <br><span style="font-weight: 500;">Inicio de lecciones: </span> 3 de marzo<br><span style="font-weight: 500;">Costo: </span> c120.000</p>
+                  <div style="background-color: #84c3ff; text-align: center; color: #fff;  padding-top: 5px; padding-bottom: 5px"> Matrícula disponible a partir de enero </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-4">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Redes sociales en la educación</h4>
+                  <p class="card-text">  <span style="font-weight: 500;">Duración:</span> 120 horas <br><span style="font-weight: 500;">Inicio de lecciones: </span> 13 de febrero<br><span style="font-weight: 500;">Costo: </span> c120.000</p>
+                  <div style="background-color: #84c3ff; text-align: center; color: #fff;  padding-top: 5px; padding-bottom: 5px"> Matrícula disponible a partir de enero </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="row pt-3"></div>
+
+        </div>
+    
+    
+        <div id="tab6" class="tabcontent">     
+          <p><br>A continuación, la oferta de cursos disponibles sobre educación de adultos:</p>
+        
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Habilidades pedagógicas innovadoras</h4>
+                  <p class="card-text">  <span style="font-weight: 500;">Duración:</span> 80 horas <br><span style="font-weight: 500;">Inicio de lecciones: </span> 3 de  noviembre<br><span style="font-weight: 500;">Costo: </span> c80.000</p>
+                  <div style="background-color:  rgb(28,67,136); text-align: center; color: #fff;  padding-top: 5px; padding-bottom: 5px" type="button"> <a href="#matric">Matricular </a></div>
+                </div>
+              </div>
+            </div>
+          
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">La educación enfocada en personas adultas</h4>
+                  <p class="card-text">  <span style="font-weight: 500;">Duración:</span> 80 horas <br><span style="font-weight: 500;">Inicio de lecciones: </span> 3 de noviembre<br><span style="font-weight: 500;">Costo: </span> c80.000</p>
+                  <div style="background-color:  rgb(28,67,136); text-align: center; color: #fff;  padding-top: 5px; padding-bottom: 5px" type="button"> <a href="#matric">Matricular </a></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="row pt-3"></div>
+
+          
+        </div>
+    
+    
+        <div id="tab7" class="tabcontent">     
+          <p><br>A continuación, la oferta de cursos disponibles sobre huertas y sostenibilidad:</p>
+        
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Educar para el desarrollo sostenible</h4>
+                  <p class="card-text">  <span style="font-weight: 500;">Duración:</span> 80 horas <br><span style="font-weight: 500;">Inicio de lecciones: </span> 3 de  noviembre<br><span style="font-weight: 500;">Costo: </span> c80.000</p>
+                  <div style="background-color:  rgb(28,67,136); text-align: center; color: #fff;  padding-top: 5px; padding-bottom: 5px" type="button"> <a href="#matric">Matricular </a></div>
+                </div>
+              </div>
+            </div>
+          
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Huertas escolares</h4>
+                  <p class="card-text">  <span style="font-weight: 500;">Duración:</span> 80 horas <br><span style="font-weight: 500;">Inicio de lecciones: </span> 3 de noviembre<br><span style="font-weight: 500;">Costo: </span> c80.000</p>
+                  <div style="background-color:  rgb(28,67,136); text-align: center; color: #fff;  padding-top: 5px; padding-bottom: 5px" type="button"> <a href="#matric">Matricular </a></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="row pt-3"></div>
+
+        </div>
+    
+
+      </section>
+
+      <section id="matric">       
+        <div class="row">
+        <!-- 3. Usar ilustraciones web -->
+              <div class="col-md-3"><h2>Matrícula</h2><script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script> <lottie-player src="https://lottie.host/7ef00b4f-43c6-4b51-9b81-2df852b9a615/b1PE5STlDD.json" background="transparent" speed="1" style="width: 200px; height: 200px;" loop autoplay></lottie-player></div>
+              <div class="col-md-9"><br><br><br><p>Para matricular cualquier curso de la <a href="#cursos">oferta académica</a> siga estos pasos:</p><ol>
+                <li>Realizar el <span style="font-weight: bold; color: #84c3ff;"> pago</span> de cada curso que desea matricular.</li>
+                <li>Enviar el comprobante de depósito vía  <span style="font-weight: bold; color: #84c3ff;">correo electrónico</span>. Asegúrese de que el sujeto del correo sea el nombre del curso. Incluya su nombre completo y número de cédula en el cuerpo del correo.</li>
+                <li>Aceptar el sílabo y programa de cada curso matriculado. Por cada uno, recibirá un correo con el enlace correspondiente. Siga los pasos para  <span style="font-weight: bold; color: #84c3ff;">acceder al material y aceptar sus términos</span>.</li>
+              </ol></div>
+              
+          </div>    
+      </section>
+
+
+      <section id="contacto">
+        <!-- 5. Agregar rostro humano -->
+        <!-- 6. Formulario de contacto o suscripción -->
+          <h2>Formulario de Contacto</h2>
+          <p>Por favor, deje sus datos personales y su consulta. Nos pondremos en contacto pronto.</p>
+          <div class="sectionForm"> 
+              <div class="contact-box">
+                <div class="left"></div>
+                <div class="right">                          
+                  <form id="formC">
+                    <div class="formRow">
+                        <div class="colForm">
+                            <div class="inputBox">
+                                <input id="nombreTxt" type="text" name="name" placeholder="Nombre1 Nombre2" required="required">
+                                
+                                <span class="line"></span>
+                            </div>
+                        </div>
+                        
+                        <div class="pt-3"></div>
+                        <div class="colForm">
+                            <div class="inputBox"><input id="apellidosTxt" type="text" name="lastname" placeholder="Apellido1 Apellido2" required="required">
+                                
+                                <span class="line"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pt-3"></div>
+                    <div class="formRow">
+                        <div class="colForm">
+                            <div class="inputBox"><input id="emailTxt" type="text" name="email"  placeholder="nombre@email.com" required="required">
+                            </div>
+                        </div>
+                    <div class="pt-3"></div>
+                        <div class="colForm">
+                            <div class="inputBox"><input id="numberTxt" type="number" name="phone" placeholder="88888888"  required="required">
+                                
+                                <span class="line"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pt-3"></div>
+                    <div class="formRow">
+                        <div class="colForm">
+                            <div class="inputBox textarea"><textarea id="mensajeTxt" name="message" placeholder="Mensaje"   required="required"></textarea>
+                                
+                                <span class="line"></span>
+                            </div>
+                        </div>
+                    </div>
+                  </form>
+                  <div class="formRow">
+                    <div class="colForm">
+                        <p id="mensajeAlert"></p>
+                        <div class="pt-3 col-md-12"> <input style="background-color: rgb(28,67,136); padding-top: 5px; padding-bottom: 5px ; text-align: center; color: #fff;" id="btnSend" type="submit" value="   Enviar mi mensaje   ">
+                      </div>
+                    <div class="pt-3 col-md-12">                                    
+                        <div style="background-color: rgb(200,215,242); text-align: center; color: rgb(7,24,58);  padding-top: 5px; padding-bottom: 5px" type="button"  onclick="cleanInputs()" ><i class="fas fa-trash"></i>  Limpiar </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          <div class="pt-5"></div>
+          <p><i class="fas fa-envelope"></i>&nbsp;También puede escribirnos a <a href="mailto:ventas@eduva.co.cr">ventas@eduva.co.cr</a> o enviar sus comprobantes de deposito a <a href="mailto:tesoreria@eduva.co.cr">tesoreria@eduva.co.cr</a></p><p><i class="fas fa-phone"></i>&nbsp;Nuestro teléfonos son: 7134-4395 / 7105-9091
+          </p>        
+      </section>
+<script src="js/tarea2.js"></script>
+</body>
+<footer>
+    <div class="container-fluid">
+      <div class="row">
+          <div class="col-md-11"><img src="https://www.eduva.co.cr/wp-content/uploads/2021/04/logo.jpg" style="max-height: 50px; width: auto; alt: 'Educación Virtual Actualizada';" >&nbsp;&nbsp;Educación Virtual Actualizada</div>
+          <div class="col-md-1 text-center"><a href="#home" style="color: rgb(241,77,93); font-size: small;"><i class="fas fa-arrow-up"></i><br>Inicio</a></div>
+      </div>
+    </div>        
+</footer>
+</html>
