@@ -1,0 +1,163 @@
+<!-- 
+(1) Favicon web / scrolltop 1
+(2) Encabezado y pie de página clip-path 1
+(3) Uso de microinteracciones JSON 1
+(4) Chat whatapp 1
+(5) Banner alusivo al tema 1
+(6) Vídeo de Youtube o MP4 1
+(7) Ubicación del evento (mapa Google Full-Screen) 1
+(8) Uso del contenido textual y atractivo efectivo 2
+(9) Formulario de suscripción programado -->
+
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous/" />
+    <link href="css/index.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <link rel="icon" href="favicon.png" />
+    <title>[tarea 3] bungeeTON</title>
+</head>
+
+<header id="logo">
+  <div class="row">
+    <div class="col-md-10"></div>
+    <div class="col-md-2" ><img src="multimedia/logo.png" alt="logo Carobicos" height="25%" >  </div>
+  </div>  
+</header>
+
+<section id="hero-bg-video">
+  <div class="video-container">
+    <div class="dark-overlay" id="top"></div>
+    <video autoplay="" loop="" muted="">
+      <source src="multimedia/h1.mp4" type="video/mp4">
+    </video>
+    
+    <div class="overlay-desc">
+      <div class="overlay-desc--wrap">
+        <h1 class="headline">bungeeTON</h1>
+        <h2 class="subtitle">Sesiones grupales de <em>bungee fitness</em>, abiertas al público general [<span style="font-weight: 600;"> principiantes incluidos </span>]</h2>
+      </div>
+    </div>
+  </div>
+</section>
+
+<body>
+  <section class="container shadow-sm rounded">
+    <div class="row mt-5 p-4 bg-white shadow rounded">
+      <div class="col-md-3 align-items-top  " >
+        <img src="multimedia/profile2.png" height="100px"> <br><br>
+        <h2 style="color: #28377C">¡Participá en el <span style="color: #1B75BC; font-weight: 800;"> bungee<span style="color: #1B75BC; font-weight: 700;">TON</span></span> de noviembre!</h3><p>Habrá 6 clases grupales disponibles para que reservés espacio en la que querás.</p>
+        <br>
+        <p  style="font-size: .75rem;  "><i class="fas fa-exclamation-triangle"  style="color: #1B75BC;"></i> <span style="color: #1B75BC; font-weight: 500;">Cupo limitado:</span><br>Máximo 4 personas por clase.</p>
+      </div>
+      <div class="col-md-3 "> 
+        <h3><i class="fas fa-calendar-day" style="color: #8bc63e;"></i> ¿Cuándo es?</h3>
+        <p> El sábado 18 de noviembre. <br>Clases disponibles:
+        <ul> 
+          <li>9:00 am - 10:00 am</li>
+          <li>10:00 am - 10:50 am</li>
+          <li>11:00 am - 11:50 am</li>
+          <li>2:00 pm - 2:50 pm</li>
+          <li>3:00 pm - 3:50 pm</li>
+          <li>4:00 pm - 4:50 pm</li>
+        </ul>
+        </p>         
+        <h3><i class="fas fa-tag" style="color: #8bc63e;" ></i> ¿Cuánto vale? </h3>
+        <p> $25/persona/clase</p>
+        <h3><i class="fas fa-map-marker-alt" style="color: #8bc63e;"></i> ¿Dónde es?</h3>
+        <p>Santo Domingo, Heredia.</p>
+      </div>
+      <div class="col-md-3 ">
+        <img src="multimedia/profile.png" height="400px"> 
+      </div>
+      <!-- <div class="col-md-1 ">  </div> -->
+      <div class="col-md-3 align-self-center"> <h3>¿De qué se trata?</h3>
+        <p><em>Bungee fitness</em> es ejercicio funcional en suspensión, que se realiza utilizando arneses y ligas de resistencia. <br> Usualmente se trabaja en sesiones privadas; pero el <span style="color: #1B75BC; font-weight: 800;"> bungee<span style="color: #1B75BC; font-weight: 700;">TON</span></span> es una jornada continua de clases grupales, una tras otra, para que toda persona <span style="color: #1B75BC; font-weight: 600;">mayor de 14 años y que pese menos de 90kg</span> que así lo desee pueda participar. </p>
+      </div>
+    </div>    
+  </section>
+  <section class=" bg-white p-4 mt-5 ">
+    <div class="mapa">
+        <h2>¿Dónde será el evento?</h2>
+        <p>El <span style="color: #1B75BC; font-weight: 800;"> bungee<span style="color: #1B75BC; font-weight: 700;">TON</span></span> se realizará en el Residencial Durango, en Santo Domingo de Heredia.</p>
+        
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3929.3628790893576!2d-84.07621359538552!3d9.986853573259259!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1697507697511!5m2!1ses-419!2smx" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+       
+      
+    </div>
+  </section>
+  
+  <section class="form">
+    <div class="container ">   
+      <div class="row">
+        <div class="col-md-4"><dotlottie-player src="https://lottie.host/101dfe75-6cbf-44cc-9856-9bd7aaafdb9c/MSoOubz5MO.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></dotlottie-player></div>
+        <div class="col-md-8 mt-5 align-items-center gx-4 gy-4 p-4 bg-light shadow rounded">
+          <h2>¿Cómo reservar?</h2>
+          <p>Cada participante debe enviar a WhatsApp<a href="https://api.whatsapp.com/send/?phone=50660856751&text&type=phone_number&app_absent=0" style="text-decoration: none; " target="_blank"> <i class="fab fa-whatsapp" style="color: #25d366;"></i> </a>el comprobante de pago, con la información de contacto del participante. <br> Recibido el depósito, se te confirmará el cupo reservado por esa misma vía.</p>   
+          <input style="background-color: #1B75BC; padding-top: 5px; padding-bottom: 5px; text-align: center; color: #fff; border-width: 0px;" id="btnWa" type="submit" value="   Reservar vía WhatsApp   ">
+          <a href="https://api.whatsapp.com/send/?phone=50660856751&text&type=phone_number&app_absent=0" class="float" target="_blank">
+            <i class="fab fa-whatsapp" ></i> </i>
+            </a>
+          
+        </div>
+      </div>     
+    </div>
+  <div class="p-4"></div> 
+  </section>
+      
+<section>
+  <div class="container ">   
+    <div class="row">      
+      <div class="col-md-10 mt-5 align-items-center gy-4 p-4 bg-white shadow rounded">
+        <h2>¿Preguntas?</h2>  
+        <p>Para más información sobre este  <span style="color: #1B75BC; font-weight: 800;"> bungee<span style="color: #1B75BC; font-weight: 700;">TON</span></span>  o sobre futuros eventos, podés escribir al WhatsApp<a href="https://api.whatsapp.com/send/?phone=50660856751&text&type=phone_number&app_absent=0" style="text-decoration: none; " target="_blank"> <i class="fab fa-whatsapp" style="color: #25d366;"></i> </a> y/o suscribirte al <em>newsletter</em>, dejando tu email a continuación.</p>
+        <form id="inscription">
+          <input class="email" name="email" id="inscriptionTxt" type="email" placeholder="Tu email" size="40" >
+          <input id="btnSend" type="button" value="Suscribirme"  style="background-color: #1B75BC; padding-top: 5px; padding-bottom: 5px; text-align: center; color: #fff; border-width: 0px;" >
+          <p></p>
+          <p id="mensajeAlert"></p>
+        </form>
+      </div>
+
+      <div class="col-md-2  gy-4">        
+        <a href="https://storyset.com/online"><img src="multimedia/wa.svg" height="100%" alt=""></a>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="p-4"></div>  
+  
+
+  <a id="flechabtn" class="goto-top" href="#top" title="ir al inicio"> &#8593; <br><span style="font-weight: 200; font-size:.85rem;">inicio</span></a>
+  
+  <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>  
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="js/smooth-scroll.min.js"></script>
+  <script src="js/scrolltop.js"></script>
+  <script src="js/index.js"></script>
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script> 
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>          
+<footer>
+  <div class="footer-basic">
+        <div class="social">
+          <a href="https://www.instagram.com/carobicos/"><i class="fab fa-instagram-square" style="color: #1B75BC;"></i></a>
+          <a href="https://www.facebook.com/carobicos/"><i class="fab fa-facebook-square" style="color: #1B75BC;"></i></a>
+          <a href="https://www.youtube.com/channel/UCNjzgC920gmj6roqZ8TyWCg/videos"><i class="fab fa-youtube" style="color: #1B75BC;"></i></a>
+          <a href="mailto:carobicos@gmail.com"><i class="fas fa-envelope" style="color: #1B75BC;"></i></a>  
+          <!-- <ul class="list-inline">
+            <li class="list-inline-item"><a href="#">Home</a></li>
+            <li class="list-inline-item"><a href="#">Services</a></li>
+            <li class="list-inline-item"><a href="#">About</a></li>
+            <li class="list-inline-item"><a href="#">Terms</a></li>
+            <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+          </ul> -->
+        <p class="copyright">Carobicos © 2023</p>
+        
+  </div>
+</footer>
+</html>
