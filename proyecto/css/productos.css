@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair:opsz,wght@5..1200,300;5..1200,400;5..1200,500;5..1200,600;5..1200,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+
+
+html {
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+
+/* hero */
+.heroSub{
+    padding: 20px;
+    margin-top: 15PX;
+    font-size: 1.5rem;
+    color: #2A2A2A;
+    font-family: 'Roboto', 'Open Sans', sans-serif;
+}
+
+/* productos */
+
+.productos {    
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 3%;
+}
+
+.productos img {
+  object-fit: cover;
+  width: 100%;
+  height: 200px;
+  transition: transform 0.2s ease;
+}
+
+a {
+  margin-bottom: 8px;
+  text-decoration: none;
+  color: #2A2A2A;
+}
+
+.sq a:hover img {
+  transform: scale(1.1) rotate(8deg);
+  box-shadow: 0 5px 3px 0 rgba(117,172,44,.25) , 0 3px 5px 0 rgba(60,94,15,0.25); 
+  cursor: none;
+}
+
+h2 {
+  line-height: 1;
+  text-align: left;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  color: #75AC2C;
+  font-size: 1.5rem;
+  font-weight: 450;  
+  font-family: 'Roboto', 'Open Sans', sans-serif;
+}
+
+.prodP{
+    margin: 15px 0 30px 0;
+    line-height: 1.3;
+    font-family: 'Roboto', 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    color: #2A2A2A;    
+    font-weight: 300;
+}
+ 
+/* tierra */
+
+.contenedor{
+    width:100%;
+    height:100vh;
+    display:flex;
+    object-fit: contain;
+    background-image: url(../img/prod-BocachTierra.webp);
+    background-size: cover;
+}
+
+.box{
+    position:relative;
+    width:400px;
+    height:300px;
+    background:#BFDD5A;
+    margin:auto;
+    display:flex;
+    overflow:hidden;
+    padding-top: 20px;
+    border-radius:5px;
+    box-shadow:10px 10px 15px 0px rgba(0, 0, 0, 0.2);
+    transition:0.3s;
+    vertical-align: middle;
+}
+
+.boxSub{
+    padding: 20px;
+    font-size: 2rem;
+    color:#3C5E0F;
+    font-weight: 450;    
+    line-height: 1.5;
+    font-family: 'Roboto', 'Open Sans', sans-serif;
+}
+
+.boxP {
+    margin: 15px 0 30px 0;
+    line-height: 1.5;
+    font-family: 'Roboto', 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    color: #2A2A2A;    
+    font-weight: 300;
+    padding-right: 15px;
+}
+
+.contH1{
+    position:relative;
+    width:400px;
+    height:300px;
+    margin:auto;
+    display:flex;
+    padding-top: 20px;
+    border-radius:5px;
+    transition:0.3s;
+    vertical-align: middle;
+}
+.boxH1{
+    font-family: 'Playfair';          
+    color: #75AC2C;
+    font-size: 3.5rem;
+    font-weight: 900;
+    padding-left: 50px;
+    line-height: 1;
+    vertical-align: middle;
+    
+}
+
+@media screen and (max-width: 824px) {
+    .contenedor {
+        display: block;
+        height:max-content;
+    }
+
+    .contH1{
+        background:rgba(255, 255, 255,0.75);
+    }
+}

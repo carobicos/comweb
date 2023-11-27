@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair:opsz,wght@5..1200,300;5..1200,400;5..1200,500;5..1200,600;5..1200,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+
+
+html {
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+}
+
+.heroSub{
+  padding: 20px;
+  margin-top: 15PX;
+  font-size: 1.5rem;
+  color: #2A2A2A;
+  font-family: 'Roboto', 'Open Sans', sans-serif;
+}
+
+
+.tab {
+    overflow: hidden;
+    background-color: #3C5E0F;
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    border-bottom: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 10px;
+    transition: 0.3s;
+    font-family: 'Playfair';
+    font-size: 1.5rem;
+    color: #fff;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color:  #75AC2C;
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #fff;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color:#f5f9ef;
+    font-size: 1.5rem;
+    color: #2A2A2A;
+    font-weight: 900;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+    background-color:#f5f9ef;
+    font-family: 'Roboto', 'Open Sans', sans-serif;
+    font-size: 1.1rem;
+  }
+   
+  .tabcontentP {
+    color:#2A2A2A;
+    font-family: 'Roboto', 'Open Sans', sans-serif;
+    font-size: 1.1rem;
+  }
+
+  .btnCotizar {
+    padding: 10px;
+    background-color: #AB381B;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-weight: 450;
+    font-size: 1.25rem;        
+    font-family: 'Roboto', 'Open Sans', sans-serif;
+}

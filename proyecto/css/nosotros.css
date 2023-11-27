@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair:opsz,wght@5..1200,300;5..1200,400;5..1200,500;5..1200,600;5..1200,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+
+
+html {
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+}
+
+/* Grace */ 
+.Graceh1 {
+    color: #3C5E0F;
+    font-family: 'Playfair';          
+    font-size: 2.75rem;
+    padding-bottom: 15px;
+    font-weight: 900;
+}
+
+.GraceP {
+    line-height: 1.5;
+    font-family: 'Roboto', 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    color: #2A2A2A;    
+    font-weight: 300;
+    margin-right: 20px;
+}
+
+/* visitenos */
+.heroSub{
+    padding: 20px;
+    margin-top: 15PX;
+    font-size: 1.5rem;
+    color: #3C5E0F;
+    font-family: 'Roboto', 'Open Sans', sans-serif;
+}
+.heroSub3{
+    margin-top: 25PX;
+    font-size: 1.3rem;
+    color: #3C5E0F;
+    font-family: 'Roboto', 'Open Sans', sans-serif;
+}
+
+.btnBlog {
+    padding: 15px;
+    background-color: #AB381B;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-weight: 450;
+    font-size: 1.25rem;        
+    font-family: 'Roboto', 'Open Sans', sans-serif;
+}
